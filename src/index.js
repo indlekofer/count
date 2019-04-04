@@ -9,12 +9,12 @@ export const restore = (key) => {
   } else {
     __counters[key] = 0;
   }
-}
+};
 
 export const reset = () => {
   __counter = 0;
   __counters = {};
-}
+};
 
 export const get = (key) => {
   if (typeof key === 'undefined') {
@@ -24,7 +24,7 @@ export const get = (key) => {
   } else {
     return __counters[key];
   }
-}
+};
 
 export const set = (value, key) => {
   if (typeof key === 'undefined') {
@@ -32,7 +32,7 @@ export const set = (value, key) => {
   } else {
     __counters[key] = value;
   }
-}
+};
 
 export const next = (key) => {
   if (typeof key === 'undefined') {
@@ -43,6 +43,6 @@ export const next = (key) => {
   } else {
     return ++__counters[key];
   }
-}
+};
 
 export default get;
