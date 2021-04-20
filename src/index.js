@@ -1,7 +1,7 @@
 //counter unnamed
-var __counter = 0;
+let __counter = 0;
 //named counter object key: counter
-var __counters = {};
+let __counters = {};
 
 export const restore = (key) => {
   if (typeof key === 'undefined') {

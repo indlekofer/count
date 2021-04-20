@@ -1,5 +1,8 @@
 # @indlekofer/count
 
+tiny script for a simple counter.
+this helps to share unique counters between libraries and applications
+
 ## Usage
 
 ```js

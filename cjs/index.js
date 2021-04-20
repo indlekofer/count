@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = exports.next = exports.set = exports.get = exports.reset = exports.restore = void 0;
+exports["default"] = exports.next = exports.set = exports.get = exports.reset = exports.restore = void 0;
 //counter unnamed
 var __counter = 0; //named counter object key: counter
 
@@ -61,4 +61,4 @@ var next = function next(key) {
 
 exports.next = next;
 var _default = get;
-exports.default = _default;
+exports["default"] = _default;
